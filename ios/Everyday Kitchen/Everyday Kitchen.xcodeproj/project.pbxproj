@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		82DE946B3061D396000F5EA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DE94683061D396000F5EA5 /* ContentView.swift */; };
+		82DE946C3061D396000F5EA5 /* Everyday_KitchenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DE94693061D396000F5EA5 /* Everyday_KitchenApp.swift */; };
+		82DE946D3061D396000F5EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DE94673061D396000F5EA5 /* Assets.xcassets */; };
+		82DE94703061D3FB000F5EA5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DE946F3061D3FB000F5EA5 /* User.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		82007B26305F2FAA0036E327 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +34,13 @@
 		82007B16305F2FA70036E327 /* Everyday Kitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Everyday Kitchen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82007B25305F2FAA0036E327 /* Everyday KitchenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Everyday KitchenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82007B2F305F2FAA0036E327 /* Everyday KitchenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Everyday KitchenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DE94673061D396000F5EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82DE94683061D396000F5EA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82DE94693061D396000F5EA5 /* Everyday_KitchenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Everyday_KitchenApp.swift; sourceTree = "<group>"; };
+		82DE946F3061D3FB000F5EA5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		82007B18305F2FA70036E327 /* Everyday Kitchen */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Everyday Kitchen";
-			sourceTree = "<group>";
-		};
 		82007B28305F2FAA0036E327 /* Everyday KitchenTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Everyday KitchenTests";
@@ -75,7 +81,7 @@
 		82007B0D305F2FA70036E327 = {
 			isa = PBXGroup;
 			children = (
-				82007B18305F2FA70036E327 /* Everyday Kitchen */,
+				82DE946A3061D396000F5EA5 /* Everyday Kitchen */,
 				82007B28305F2FAA0036E327 /* Everyday KitchenTests */,
 				82007B32305F2FAA0036E327 /* Everyday KitchenUITests */,
 				82007B17305F2FA70036E327 /* Products */,
@@ -92,6 +98,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		82DE946A3061D396000F5EA5 /* Everyday Kitchen */ = {
+			isa = PBXGroup;
+			children = (
+				82DE946E3061D39E000F5EA5 /* Models */,
+				82DE94673061D396000F5EA5 /* Assets.xcassets */,
+				82DE94683061D396000F5EA5 /* ContentView.swift */,
+				82DE94693061D396000F5EA5 /* Everyday_KitchenApp.swift */,
+			);
+			path = "Everyday Kitchen";
+			sourceTree = "<group>";
+		};
+		82DE946E3061D39E000F5EA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82DE946F3061D3FB000F5EA5 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +131,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				82007B18305F2FA70036E327 /* Everyday Kitchen */,
 			);
 			name = "Everyday Kitchen";
 			packageProductDependencies = (
@@ -212,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DE946D3061D396000F5EA5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DE946B3061D396000F5EA5 /* ContentView.swift in Sources */,
+				82DE946C3061D396000F5EA5 /* Everyday_KitchenApp.swift in Sources */,
+				82DE94703061D3FB000F5EA5 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
